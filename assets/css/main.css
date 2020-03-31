@@ -1,5 +1,35 @@
 @import url(fontawesome-all.min.css);
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300i,400,400i");
+
+@font-face {
+    font-family: 'mabry-light-pro';
+    src: url('../webfonts/mabry-light-pro.eot');
+    src: url('../webfonts/mabry-light-pro.eot?#iefix') format('embedded-opentype'),
+         url('../webfonts/mabry-light-pro.woff2') format('woff2'),
+         url('../webfonts/mabry-light-pro.woff') format('woff'),
+         url('../webfonts/mabry-light-pro.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'mabry-light-italic-pro';
+    src: url('../webfonts/mabry-light-italic-pro.eot');
+    src: url('../webfonts/mabry-light-italic-pro.eot?#iefix') format('embedded-opentype'),
+         url('../webfonts/mabry-light-italic-pro.woff2') format('woff2'),
+         url('../webfonts/mabry-light-italic-pro.woff') format('woff'),
+         url('../webfonts/mabry-light-italic-pro.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'mabry-black-pro';
+    src: url('../webfonts/mabry-black-pro.eot');
+    src: url('../webfonts/mabry-black-pro.eot?#iefix') format('embedded-opentype'),
+         url('../webfonts/mabry-black-pro.woff2') format('woff2'),
+         url('../webfonts/mabry-black-pro.woff') format('woff'),
+         url('../webfonts/mabry-black-pro.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 /*
 	Story by HTML5 UP
@@ -157,11 +187,13 @@ input, select, textarea {
 	}
 
 	body, input, select, textarea {
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "mabry-light-pro", Helvetica, sans-serif;
 		font-size: 1rem;
 		font-weight: 300;
 		line-height: 1.65;
 	}
+
+
 
 	a {
 		-moz-transition: color 0.2s ease-in-out;
@@ -180,6 +212,7 @@ input, select, textarea {
 	}
 
 	em, i {
+		font-family: "mabry-light-italic-pro", Helvetica, sans-serif;
 		font-style: italic;
 	}
 
@@ -192,7 +225,7 @@ input, select, textarea {
 		}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-weight: 300;
+		font-family: "mabry-black-pro", Helvetica, sans-serif;
 		line-height: 1.375;
 		letter-spacing: -0.05em;
 		margin: 0 0 1rem 0;
