@@ -8633,3 +8633,16 @@ input, select, textarea {
 			#wrapper.divided > .invert:first-child {
 				box-shadow: none !important;
 			}
+
+
+.logo {
+	background: url(../images/BRITTEN_PEARS_ARTS_LOGO_RGB_POS.png) no-repeat top left;
+    display: block;
+    background-size: contain;
+    margin-bottom: 1em;
+}
+.hide-text {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
