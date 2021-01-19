@@ -1,0 +1,32 @@
+@import url(fontawesome-all.min.css);
+
+@font-face {
+    font-family: 'mabry-light-pro';
+    src: url('../webfonts/BrittenPearsMabryPro-Light.eot');
+    src: url('../webfonts/BrittenPearsMabryPro-Light.eot?#iefix') format('embedded-opentype'),
+         url('../webfonts/BrittenPearsMabryPro-Light.woff2') format('woff2'),
+         url('../webfonts/BrittenPearsMabryPro-Light.woff') format('woff'),
+         url('../webfonts/BrittenPearsMabryPro-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'mabry-light-italic-pro';
+    src: url('../webfonts/BrittenPearsMabryPro-LightItalic.eot');
+    src: url('../webfonts/BrittenPearsMabryPro-LightItalic.eot?#iefix') format('embedded-opentype'),
+         url('../webfonts/BrittenPearsMabryPro-LightItalic.woff2') format('woff2'),
+         url('../webfonts/BrittenPearsMabryPro-LightItalic.woff') format('woff'),
+         url('../webfonts/BrittenPearsMabryPro-LightItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'mabry-black-pro';
+    src: url('../webfonts/BrittenPearsMabryPro-Black.eot');
+    src: url('../webfonts/BrittenPearsMabryPro-Black.eot?#iefix') format('embedded-opentype'),
+         url('../webfonts/BrittenPearsMabryPro-Black.woff2') format('woff2'),
+         url('../webfonts/BrittenPearsMabryPro-Black.woff') format('woff'),
+         url('../webfonts/BrittenPearsMabryPro-Black.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
